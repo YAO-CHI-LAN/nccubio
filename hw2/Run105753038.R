@@ -1,0 +1,1 @@
+system("Rscript 105753038.R --input test.fasta --score PAM100.txt --aln local --gap_open -10 --gap_extend -2 --output result.fasta")
