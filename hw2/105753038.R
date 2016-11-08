@@ -173,5 +173,5 @@ if(alnm %in% "global"){#先判斷模式為何
   }
 }
 #part5不管是global還是local得到新的對應序列將其寫入檔案
-data=paste("\n>1aboA",newseq1,"\n>1ycsB",newseq2,sep = " ")
-write(paste(title,"\n",data),file=o_f)
+data=paste(">1aboA\n",newseq1,"\n>1ycsB\n",newseq2,sep = "")
+write(paste(data),file=o_f)
