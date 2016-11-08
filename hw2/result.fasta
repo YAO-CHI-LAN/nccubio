@@ -1,10 +1,4 @@
-PARAMETERS 
-input file         : test.fasta 
-output file        : result.fasta 
-score file         : PAM100.txt 
-alignments         : local 
-gap open penalty   : -10 
-gap extend penalty : -2 
- 
->1aboA -LFVAL--YDFVASGDNTLSITK-GEK-LRVLGY--NHNG-EWCE--AQTKNGQGWVPSN----Y----- 
->1ycsB -IY-ALWDYE--PQNDDELPM-KEGD-CMTII-HREDEDEIEW--WWARLNDKEGYVPRNLLGLY-----
+>1aboA
+-LFVAL--YDFVASGDNTLSITK-GEK-LRVLGY--NHNG-EWCE--AQTKNGQGWVPSN----Y-----
+>1ycsB
+-IY-ALWDYE--PQNDDELPM-KEGD-CMTII-HREDEDEIEW--WWARLNDKEGYVPRNLLGLY-----
