@@ -156,21 +156,6 @@ if(alnm %in% "global"){#先判斷模式為何
       j=j-1
     }
   }
-  
-  #現在得到了最好的local配對故表示在現在的[j,i]為0
-  #找到此將序列2對應在序列1的位置其餘填入-
-
-  nowlocalistart=(sl1-(local[2]-1))+1
-  nowlocaliend=(sl1-(i-1))
-  for(a in 1:sl1){
-    if(a<nowlocalistart){
-      newseq1=paste("-",newseq1,sep="")
-      newseq2=paste("-",newseq2,sep="")
-    }else if(a>nowlocaliend){
-      newseq1=paste(newseq1,"-",sep="")
-      newseq2=paste(newseq2,"-",sep="")
-    }
-  }
 }
 #part5不管是global還是local得到新的對應序列將其寫入檔案
 data=paste(">1aboA\n",newseq1,"\n>1ycsB\n",newseq2,sep = "")
